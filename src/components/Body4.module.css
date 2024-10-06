@@ -1,0 +1,29 @@
+p {
+  font-family: sans-serif;
+}
+
+#h2skills {
+  font-style: normal;
+  font-size: 4vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: #0353a4;
+  padding-top: 10vh;
+  display:  flex;
+  justify-content: start;
+}
+
+#Body4Main {
+  height: 35vh;
+  width: 80vw;
+  display: flex;
+  background-color: #f9f7f3;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vmin;
+  margin-bottom: 20vh;
+  border-radius: 20px;
+  border-color: #adb5bd;
+  border-style: groove;
+  border-width: 1px;
+}

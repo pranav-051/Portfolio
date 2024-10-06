@@ -1,0 +1,30 @@
+#btn {
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: white; /* Change the text color to white for contrast */
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 5px blue;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#btn:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 10px #2980b9;
+}
+
+#btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px #2980b9;
+}
+
+#btn:focus {
+  outline: none;
+  border: 2px solid #2980b9;
+}

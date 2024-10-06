@@ -1,0 +1,93 @@
+.footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 6vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  width: 80%;
+  text-align: left;
+  margin:5vh
+}
+
+.brand h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.brand p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  width: 45 vw;
+  height: 80%;
+}
+
+.links ul {
+  list-style: none;
+  padding: 2vw;
+}
+
+.links ul li {
+  margin-bottom: 1.5vh;
+  width: 6vw;
+}
+
+.contactButton {
+  background-color: #f0467b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.contactButton:hover {
+  background-color: #e03f6f;
+}
+
+.social {
+  display: flex;
+  gap: 1.5vw;
+  width: 8.5vw;
+  height: 10vh;
+  padding-top: 3vh;
+  
+}
+
+.mydiv11{
+  width: 8vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.copyright {
+  font-size: 90%;
+  text-align: center;
+  color: white;
+  background-color:#000;
+  width: 100%;
+  padding-bottom: 8vh;
+}
+
+p{
+  text-align: justify;
+}
+
+#abt1{
+  width: 30vw;
+  height: 80%;
+}

@@ -1,0 +1,137 @@
+p {
+  font-family: sans-serif;
+}
+
+.h2skills {
+  font-style: normal;
+  font-size: 4vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: #0353a4;
+  padding-top: 10vh;
+  display:  flex;
+  justify-content: start;
+}
+
+#InternalBody2Main {
+  justify-content: center;
+  align-items: center;
+  height: 105vh;
+  width: 80vw;
+  height: 105vh;
+  display: flex;
+  margin-top: 1vmin;
+  flex-wrap: wrap;
+  background-color: #f9f7f3;
+  padding: 1vmin;
+  border-radius: 20px;
+  border-color: #adb5bd;
+  border-style: groove;
+  border-width: 1px;
+}
+
+#MainBody3Main{
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+#Body3MainCards {
+  background-color: #f9f7f3;
+  width: 80vw;
+  height: 45vmin;
+  padding: 1.5vw;
+  justify-content: center;
+  border-radius: 20px;
+  border-color: #adb5bd;
+  border-style: groove;
+  border-width: 1px;
+  text-align: justify;
+  margin-bottom: 4vh;
+}
+
+#internalDataCard {
+  height: 25vh;
+}
+
+#img_fluid {
+  width: 55%;
+  border-radius: 100%;
+  margin-left: 2vw;
+  background-size: cover;
+  border-color: #1e7fe0;
+  border-style: solid;
+  border-style: ridge;
+  border-right: 2vh;
+  border-width: 3px;
+  display: flex;
+}
+
+#img_fluid1 {
+  height: 28vh;
+  width: 30vh;
+  border-radius: 100%;
+  margin-left: 2vw;
+  background-size: cover;
+  border-color: #1e7fe0;
+  border-style: solid;
+  border-style: ridge;
+  border-right: 2vh;
+  border-width: 3px;
+  display: flex;
+}
+
+#btn1 {
+  margin-right: 1vw;
+  display: inline-flex;
+  margin-bottom: 5vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 13vw;
+  height: 6vh;
+  background-color: #1e7fe0;
+  border-style: solid;
+  border-color: rgb(255, 245, 245);
+  border-width: 2px;
+  color: rgb(255, 245, 245); /* Change the text color to white for contrast */
+  padding: 1vh 1.5vw;
+  font-size: 1.3vw;
+  font-weight: 400;
+  cursor: pointer;
+  outline: blue;
+  border-radius: 20px;
+  box-shadow: 0 5px #dfe3e6;
+  transition: transform 0.5s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+#btn1:hover {
+  transform: translateY(-10px);
+  transform: translateX(10px);
+  box-shadow: 8px 4px #72afd7;
+}
+
+#btn1:active {
+  transform: translateY(20px);
+  box-shadow: 8px 4px #0466c8;
+}
+
+#btn1:focus {
+  outline: none;
+  border: 2px solid #0466c8;
+}
+
+#DIVbtn {
+  height: 6vh;
+  width: 60vh;
+  display: inline;
+  margin-left: 26.5vw;
+}
+
+#cardBody {
+  height: 12vh;
+  justify-content: start;
+  align-items: start;
+}
