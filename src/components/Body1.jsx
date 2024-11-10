@@ -1,4 +1,5 @@
 import styles from "./Body1.module.css";
+import profileImg from "/src/assets/profile.png";
 function Body1() {
   return (
     <div id={`${styles["Body1Main"]}`}>
@@ -40,7 +41,7 @@ function Body1() {
         <img
           id={`${styles["profilePiic"]}`}
           className="img-fluid"
-          src="./src/assets/profile.png"
+          src={profileImg}
         ></img>
       </div>
     </div>

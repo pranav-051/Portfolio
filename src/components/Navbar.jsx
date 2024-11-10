@@ -2,15 +2,17 @@ import styles from "./Navbar.module.css";
 import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import napster from "/src/assets/napster-brands-solid.svg";
+import linkedin from "/src/assets/linkedin-brands-solid.svg";
+import github from "/src/assets/github-brands-solid.svg";
+import moon from "/src/assets/moon-solid.svg";
+
 function Navbar() {
   return (
     <>
       <nav id={`${styles["navBar"]}`} className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <img
-            id={`${styles["iconGRP"]}`}
-            src="./src/assets/napster-brands-solid.svg"
-          ></img>
+          <img id={`${styles["iconGRP"]}`} src={napster}></img>
 
           <a id={`${styles["siteName"]}`} className="navbar-brand" href="#">
             Pranav Sherekar
@@ -61,23 +63,14 @@ function Navbar() {
                 href="https://www.linkedin.com/in/pranav-sherekar-22695b244/"
                 target="__main"
               >
-                <img
-                  id={`${styles["iconGRP"]}`}
-                  src="./src/assets/linkedin-brands-solid.svg"
-                ></img>
+                <img id={`${styles["iconGRP"]}`} src={linkedin}></img>
               </a>
 
               <a href="https://github.com/pranav-051" target="__main">
-                <img
-                  id={`${styles["iconGRP"]}`}
-                  src="./src/assets/github-brands-solid.svg"
-                ></img>
+                <img id={`${styles["iconGRP"]}`} src={github}></img>
               </a>
 
-              <img
-                id={`${styles["iconGRP"]}`}
-                src="./src/assets/moon-solid.svg"
-              ></img>
+              <img id={`${styles["iconGRP"]}`} src={moon}></img>
             </form>
           </div>
         </div>

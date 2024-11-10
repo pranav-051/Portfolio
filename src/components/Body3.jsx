@@ -1,4 +1,12 @@
 import styles from "./Body3.module.css";
+
+import project1 from "/src/assets/project1.jpg";
+import project2 from "/src/assets/project2.jpg";
+import project3 from "/src/assets/project3.jpg";
+import project4 from "/src/assets/project4.jpg";
+import project5 from "/src/assets/project5.jpg";
+import project6 from "/src/assets/project6.jpg";
+import project7 from "/src/assets/project7.jpg";
 function Body3() {
   return (
     <>
@@ -12,11 +20,7 @@ function Body3() {
         <div class="card mb-3" id={`${styles["Body3MainCards"]}`}>
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="./src/assets/project1.jpg"
-                id={`${styles["img_fluid"]}`}
-                alt="..."
-              />
+              <img src={project1} id={`${styles["img_fluid"]}`} alt="..." />
             </div>
             <div id={`${styles["internalDataCard"]}`} class="col-md-8">
               <div id={`${styles["cardBody"]}`} class="card-body">
@@ -58,11 +62,7 @@ function Body3() {
         <div class="card mb-3" id={`${styles["Body3MainCards"]}`}>
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="./src/assets/project2.jpg"
-                id={`${styles["img_fluid"]}`}
-                alt="..."
-              />
+              <img src={project2} id={`${styles["img_fluid"]}`} alt="..." />
             </div>
             <div id={`${styles["internalDataCard"]}`} class="col-md-8">
               <div id={`${styles["cardBody"]}`} class="card-body">
@@ -105,7 +105,7 @@ function Body3() {
           <div class="row g-0">
             <div class="col-md-4">
               <img
-                src="./src/assets/project3.jpg"
+                src={project3}
                 id={`${styles["img_fluid"]}`}
                 alt="..."
               />
@@ -152,7 +152,7 @@ function Body3() {
           <div class="row g-0">
             <div class="col-md-4">
               <img
-                src="./src/assets/project4.jpg"
+                src={project4}
                 id={`${styles["img_fluid"]}`}
                 alt="..."
               />
@@ -199,7 +199,7 @@ function Body3() {
           <div class="row g-0">
             <div class="col-md-4">
               <img
-                src="./src/assets/project5.jpg"
+                src={project5}
                 id={`${styles["img_fluid"]}`}
                 alt="..."
               />
@@ -245,7 +245,7 @@ function Body3() {
           <div class="row g-0">
             <div class="col-md-4">
               <img
-                src="./src/assets/project6.jpg"
+                src={project6}
                 id={`${styles["img_fluid"]}`}
                 alt="..."
               />
@@ -291,7 +291,7 @@ function Body3() {
           <div class="row g-0">
             <div class="col-md-4">
               <img
-                src="./src/assets/project7.jpg"
+                src={project7}
                 id={`${styles["img_fluid1"]}`}
                 alt="..."
               />

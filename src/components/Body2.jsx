@@ -1,6 +1,29 @@
 import React, { useState } from "react";
 import styles from "./Body2.module.css";
 import Button3D from "./Button3D";
+import htmlImg from "/src/assets/html.jpg";
+import cssImg from "/src/assets/css.jpg";
+import jsImg from "/src/assets/js.jpg";
+import reactImg from "/src/assets/react.jpg";
+import nodeImg from "/src/assets/node.jpg";
+import mongodbImg from "/src/assets/mongodb.jpg";
+import sqlImg from "/src/assets/sql.jpg";
+import cImg from "/src/assets/c.jpg";
+import cppImg from "/src/assets/cpp.jpg";
+import javaImg from "/src/assets/java.jpg";
+import pyImg from "/src/assets/py.jpg";
+import dartImg from "/src/assets/dart.jpg";
+import flutterImg from "/src/assets/flutter.jpg";
+import firebaseImg from "/src/assets/firebase.jpg";
+import phpImg from "/src/assets/php.jpg";
+import springImg from "/src/assets/spring.jpg";
+import gitImg from "/src/assets/git.jpg";
+import linuxImg from "/src/assets/linux.jpg";
+import bootstrapImg from "/src/assets/bootstrap.jpg";
+import expressImg from "/src/assets/express.jpg";
+import mlImg from "/src/assets/ml.jpg";
+import figmaImg from "/src/assets/figma.jpg";
+import androidImg from "/src/assets/astudio.jpg";
 
 function Body2() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -34,7 +57,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/html.jpg"
+                  src={htmlImg}
                 />
               </div>
               <div className="p-3">HTML</div>
@@ -44,7 +67,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/css.jpg"
+                  src={cssImg}
                 />
               </div>
               <div className="p-3">CSS</div>
@@ -54,7 +77,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/js.jpg"
+                  src={jsImg}
                 />
               </div>
               <div className="p-3">JavaScript</div>
@@ -64,7 +87,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/react.jpg"
+                  src={reactImg}
                 />
               </div>
               <div className="p-3">ReactJS</div>
@@ -74,7 +97,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/node.jpg"
+                  src={nodeImg}
                 />
               </div>
               <div className="p-3">NodeJS</div>
@@ -84,7 +107,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/mongodb.jpg"
+                  src={mongodbImg}
                 />
               </div>
               <div className="p-3">MongoDB</div>
@@ -94,7 +117,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/sql.jpg"
+                  src={sqlImg}
                 />
               </div>
               <div className="p-3">SQL</div>
@@ -104,7 +127,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/c.jpg"
+                  src={cImg}
                 />
               </div>
               <div className="p-3">C</div>
@@ -114,7 +137,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/cpp.jpg"
+                  src={cppImg}
                 />
               </div>
               <div className="p-3">C++</div>
@@ -124,7 +147,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/java.jpg"
+                  src={javaImg}
                 />
               </div>
               <div className="p-3">Java</div>
@@ -134,7 +157,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/py.jpg"
+                  src={pyImg}
                 />
               </div>
               <div className="p-3">Python</div>
@@ -144,7 +167,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/dart.jpg"
+                  src={dartImg}
                 />
               </div>
               <div className="p-3">Dart</div>
@@ -154,7 +177,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/flutter.jpg"
+                  src={flutterImg}
                 />
               </div>
               <div className="p-3">Flutter</div>
@@ -164,7 +187,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/firebase.jpg"
+                  src={firebaseImg}
                 />
               </div>
               <div className="p-3">Firebase</div>
@@ -174,7 +197,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/php.jpg"
+                  src={phpImg}
                 />
               </div>
               <div className="p-3">PHP</div>
@@ -184,7 +207,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/spring.jpg"
+                  src={springImg}
                 />
               </div>
               <div className="p-3">Spring Boot</div>
@@ -194,7 +217,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/git.jpg"
+                  src={gitImg}
                 />
               </div>
               <div className="p-3">Git</div>
@@ -204,7 +227,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/linux.jpg"
+                  src={linuxImg}
                 />
               </div>
               <div className="p-3">Linux</div>
@@ -214,7 +237,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/bootstrap.jpg"
+                  src={bootstrapImg}
                 />
               </div>
               <div className="p-3">Bootstrap</div>
@@ -224,7 +247,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/express.jpg"
+                  src={expressImg}
                 />
               </div>
               <div className="p-3">Express JS</div>
@@ -234,7 +257,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/ml.jpg"
+                  src={mlImg}
                 />
               </div>
               <div className="p-3">Machine Learning</div>
@@ -244,7 +267,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/figma.jpg"
+                  src={figmaImg}
                 />
               </div>
               <div className="p-3">Figma</div>
@@ -254,7 +277,7 @@ function Body2() {
                 <img
                   id={`${styles["Liconlogo"]}`}
                   className="img-fluid"
-                  src="./src/assets/astudio.jpg"
+                  src={androidImg}
                 />
               </div>
               <div className="p-3">Android Studio</div>
